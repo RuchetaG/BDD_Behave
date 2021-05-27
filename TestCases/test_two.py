@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 import selenium.webdriver.support.expected_conditions as ec
-from Base import InitiateDriver
+from Library import InitiateDriver
 from Library import config_reader
 
 
