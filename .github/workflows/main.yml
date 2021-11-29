@@ -28,7 +28,7 @@ jobs:
       - name: Navigate to E2E folder
         run: cd e2e
       - name: Cloning automation repository
-        uses: RuchetaG/Robot_Framework@main
+        uses: RuchetaG/Robot_Framework@v2
         with:
           repo-token: ${{secrets.USERNAME}}
 #         run: git clone "https://github.com/RuchetaG/Robot_Framework.git"
